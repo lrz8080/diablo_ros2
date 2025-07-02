@@ -221,7 +221,7 @@ msg->mode_mark = true;
 电源系统的API只能对电池信息等信息数据查看
 #### 明细
 #### 功能概况：订阅Topic反馈电源信息
-#### Topic:  ``` /diablo/sensor/Body_state```
+#### Topic:  ``` /diablo/sensor/Battery```
 ##### Msg Type s-e：``` sensor_msgs/msg/Battery```
 ##### 命令示例：```ros2 topic echo /diablo/sensor/Battery```
 ##### 字段描述:
