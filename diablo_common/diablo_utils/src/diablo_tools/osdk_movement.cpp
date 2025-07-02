@@ -245,7 +245,7 @@ uint8_t Movement_Ctrl::SendTransformUpCmd()
 
         if(ack == 0)
         {
-            printf("==TRANSFORM UP FAIL==\n");
+          //  printf("==TRANSFORM UP FAIL==\n");
             return 0xFF;
         }
         usleep(10000);
